@@ -3,20 +3,27 @@ package 혼자공부하는자바;
 public class 문제10 {
 
     public static void main(String[] args) {
-        char c1 = 'A'; // 문자를 직접 저장
-        char c2 = 65; // 10진수로 저장
-        char c3 = '\u0041'; // 16진수로 저장
+        // float var1 = 3.14; -> 컴파일 에러
+        // 실수값 저장
+        float var2 = 3.14f;
+        double var3 = 3.14;
 
-        char c4 = '가'; // 문자를 직접 저장
-        char c5 = 44032; // 10진수로 저장
-        char c6 = '\uac00'; // 16진수로 저장
+        // 정밀도 테스트
+        float var4 = 0.1234567890123456789f;
+        double var5 = 0.1234567890123456789;
 
-        System.out.println(c1);
-        System.out.println(c2);
-        System.out.println(c3);
-        System.out.println(c4);
-        System.out.println(c5);
-        System.out.println(c6);
+        System.out.println("var2 : " + var2);
+        System.out.println("var3 : " + var3);
+        System.out.println("var4 : " + var4);
+        System.out.println("var5 : " + var5);
+
+        // e 사용하기
+        double var6 = 3e6;
+        float var7 = 3e6F;
+        double var8 = 2e-3;
+        System.out.println("var6 : " + var6);
+        System.out.println("var7 : " + var7);
+        System.out.println("var8 : " + var8);
 
     }
 

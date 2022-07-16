@@ -3,25 +3,21 @@ package 혼자공부하는자바;
 public class 문제17 {
 
     public static void main(String[] args) {
-        byte byteValue = 10;
-        int intValue = byteValue;
-        System.out.println("inValue : " + intValue);
+        int value = 10 + 2 + 8;
+        System.out.println("value : " + value);
 
-        char charValue = '가';
-        intValue = charValue;
-        System.out.println("가의 유니코드 : " + intValue);
+        // 문자열 결합 연산
+        String str1 = 10 + 2 + "8";
+        System.out.println("str1 : " + str1);
 
-        intValue = 50;
-        long longValue = intValue;
-        System.out.println("longValue : " + longValue);
+        String str2 = 10 + "2" + 8;
+        System.out.println("str2 : " + str2);
 
-        longValue = 100;
-        float floatValue = longValue;
-        System.out.println("floatValue : " + floatValue);
+        String str3 = "10" + 2 + 8;
+        System.out.println("str3 : " + str3);
 
-        floatValue = 100.5f;
-        double doubleValue = floatValue;
-        System.out.println("doubleValue : " + doubleValue);
+        String str4 = "10" + (2 + 8);
+        System.out.println("str4 : " + str4);
     }
 
 }

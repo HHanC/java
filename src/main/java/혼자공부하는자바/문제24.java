@@ -3,21 +3,16 @@ package 혼자공부하는자바;
 public class 문제24 {
 
     public static void main(String[] args) {
-        int value = 10 + 2 + 8;
-        System.out.println("value : " + value);
+        int x = -100;
+        int result1 = +x;
+        int result2 = -x;
+        System.out.println("result1 : " + result1);
+        System.out.println("result2 : " + result2);
 
-        // 문자열 결합 연산
-        String str1 = 10 + 2 + "8";
-        System.out.println("str1 : " + str1);
-
-        String str2 = 10 + "2" + 8;
-        System.out.println("str2 : " + str2);
-
-        String str3 = "10" + 2 + 8;
-        System.out.println("str3 : " + str3);
-
-        String str4 = "10" + (2 + 8);
-        System.out.println("str4 : " + str4);
+        byte b = 100;
+        // byte result3 = -b;
+        int result3 = -b;
+        System.out.println("result3 : " + result3);
     }
 
 }

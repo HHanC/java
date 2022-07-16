@@ -3,11 +3,17 @@ package 혼자공부하는자바;
 public class 문제13 {
 
     public static void main(String[] args) {
-        System.out.println("번호\t이름\t직업");
-        System.out.print("행 단위 출력\n");
-        System.out.print("행 단위 출력\n");
-        System.out.println("우리는 \"개발자\" 입니다.");
-        System.out.print("봄\\여름\\가을\\겨울");
+        int intValue = 44032;
+        char charValue = (char) intValue;
+        System.out.println(charValue);
+
+        long longValue = 500;
+        intValue = (int) longValue;
+        System.out.println(intValue);
+
+        double doubleValue = 3.14;
+        intValue = (int) doubleValue;
+        System.out.println(intValue);
     }
 
 }

@@ -3,14 +3,14 @@ package 혼자공부하는자바;
 public class 문제3 {
 
     public static void main(String[] args) {
+        int x = 3;
+        int y = 5;
+        System.out.println("x : " + x + ", y : " + y);
 
-        int hour = 3;
-        int minute = 5;
-        System.out.println(hour + "시간" + minute + "분");
-
-        int totalMinute = (hour*60) + minute;
-        System.out.println("총" + totalMinute + "분");
-
+        int temp = x;
+        x = y;
+        y = temp;
+        System.out.println("x : " + x + ", y : " + y);
     }
 
 }

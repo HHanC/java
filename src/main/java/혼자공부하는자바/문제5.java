@@ -3,9 +3,18 @@ package 혼자공부하는자바;
 public class 문제5 {
 
     public static void main(String[] args) {
-        int value = 10; // 로컬 변수 value
-        int sum = value + 20; // 로컬 변수 sum
-        System.out.println(sum);
+        byte var1 = -128;
+        byte var2 = -30;
+        byte var3 = 0;
+        byte var4 = 30;
+        byte var5 = 127;
+        // byte var6 = 128; 컴파일 에러. 이유 : byte : -128~127
+
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var3);
+        System.out.println(var4);
+        System.out.println(var5);
     }
 
 }

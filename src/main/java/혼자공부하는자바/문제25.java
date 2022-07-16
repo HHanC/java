@@ -3,21 +3,35 @@ package 혼자공부하는자바;
 public class 문제25 {
 
     public static void main(String[] args) {
-        int value1 = Integer.parseInt("10");
-        double value2 = Double.parseDouble("3.14");
-        boolean value3 = Boolean.parseBoolean("true");
+        int x = 10;
+        int y = 10;
+        int z;
 
-        System.out.println("value1 : " + value1);
-        System.out.println("value2 : " + value2);
-        System.out.println("value3 : " + value3);
+        System.out.println("-----------------------");
+        x++;
+        ++x;
+        System.out.println("x=" + x);
 
-        String str1 = String.valueOf(10);
-        String str2 = String.valueOf(3.14);
-        String str3 = String.valueOf(true);
+        System.out.println("-----------------------");
+        y--;
+        --y;
+        System.out.println("y=" + y);
 
-        System.out.println("str1 : " + str1);
-        System.out.println("str2 : " + str2);
-        System.out.println("str3 : " + str3);
+        System.out.println("-----------------------");
+        z = x++;
+        System.out.println("Z=" + z);
+        System.out.println("x=" + x);
+
+        System.out.println("-----------------------");
+        z = ++x;
+        System.out.println("z=" + z);
+        System.out.println("X=" + x);
+
+        System.out.println("-----------------------");
+        z = ++x + y++;
+        System.out.println("z=" + z);
+        System.out.println("x=" + x);
+        System.out.println("y=" + y);
     }
 
 }

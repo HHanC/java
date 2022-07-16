@@ -3,11 +3,12 @@ package 혼자공부하는자바;
 public class 문제11 {
 
     public static void main(String[] args) {
-        String name = "홍길동";
-        String job = "프로그래머";
-
-        System.out.println(name);
-        System.out.println(job);
+        boolean stop = true;
+        if(stop){
+            System.out.println("중지합니다.");
+        }else{
+            System.out.println("시작합니다.");
+        }
     }
 
 }

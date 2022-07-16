@@ -3,15 +3,14 @@ package 혼자공부하는자바;
 public class 문제6 {
 
     public static void main(String[] args) {
-        int var1 = 0b1011;
-        int var2 = 0206;
-        int var3 = 365;
-        int var4 = 0xB3;
+        long var1 = 10;
+        long var2 = 20L;
+        // long var3 = 10000000000; 컴파일 에러
+        long var4 = 10000000000L;
 
-        System.out.println("var1 : " + var1);
-        System.out.println("var2 : " + var2);
-        System.out.println("var3 : " + var3);
-        System.out.println("var4 : " + var4);
+        System.out.println(var1);
+        System.out.println(var2);
+        System.out.println(var4);
     }
 
 }

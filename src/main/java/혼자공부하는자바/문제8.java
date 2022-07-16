@@ -3,14 +3,11 @@ package 혼자공부하는자바;
 public class 문제8 {
 
     public static void main(String[] args) {
-        long var1 = 10;
-        long var2 = 20L;
-        // long var3 = 10000000000; 컴파일 에러
-        long var4 = 10000000000L;
+        String name = "홍길동";
+        String job = "프로그래머";
 
-        System.out.println(var1);
-        System.out.println(var2);
-        System.out.println(var4);
+        System.out.println(name);
+        System.out.println(job);
     }
 
 }
